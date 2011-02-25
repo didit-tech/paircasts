@@ -3,4 +3,22 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body!= body
+  body
+    #bg
+    #top
+      .top_container
+        .top_navigation_container
+          #top_navigation
+            ul
+    #wrapper
+      #header.wrap
+        .container
+          h1#logo
+            a(href="/", alt="Home")
+      #main.wrap
+        != body
+      #footer
+        #footer-wrap.wrap
+          ul#footerMenu
+            li
+              a(href="/", alt="Home") Home
